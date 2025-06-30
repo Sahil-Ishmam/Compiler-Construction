@@ -1,0 +1,63 @@
+int -> INT
+x -> ID
+= -> ASSIGN_OP
+5 -> INT_NUM
+, -> COMMA
+y -> ID
+= -> ASSIGN_OP
+8 -> INT_NUM
+; -> SEMICOLON
+printf -> ID
+( -> LPAREN
+"x > y: %d\n" -> STRING
+, -> COMMA
+x -> ID
+> -> REL_OP
+y -> ID
+) -> RPAREN
+; -> SEMICOLON
+printf -> ID
+( -> LPAREN
+"x < y: %d\n" -> STRING
+, -> COMMA
+x -> ID
+< -> REL_OP
+y -> ID
+) -> RPAREN
+; -> SEMICOLON
+printf -> ID
+( -> LPAREN
+"x >= y: %d\n" -> STRING
+, -> COMMA
+x -> ID
+>= -> REL_OP
+y -> ID
+) -> RPAREN
+; -> SEMICOLON
+printf -> ID
+( -> LPAREN
+"x <= y: %d\n" -> STRING
+, -> COMMA
+x -> ID
+<= -> REL_OP
+y -> ID
+) -> RPAREN
+; -> SEMICOLON
+printf -> ID
+( -> LPAREN
+"x == y: %d\n" -> STRING
+, -> COMMA
+x -> ID
+== -> REL_OP
+y -> ID
+) -> RPAREN
+; -> SEMICOLON
+printf -> ID
+( -> LPAREN
+"x != y: %d\n" -> STRING
+, -> COMMA
+x -> ID
+!= -> REL_OP
+y -> ID
+) -> RPAREN
+; -> SEMICOLON
