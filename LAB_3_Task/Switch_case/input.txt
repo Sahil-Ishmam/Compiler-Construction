@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int id = 222115071;
+    switch(id) {
+        case 1:
+            cout << "This id is Mine" << endl;
+            break;
+        case 2:
+            cout << "This id is other" << endl;
+            break;
+        default:
+            cout << "something went wrong" << endl;
+    }
+    return 0;
+}
