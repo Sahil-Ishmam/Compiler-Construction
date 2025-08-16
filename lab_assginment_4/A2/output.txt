@@ -1,0 +1,2 @@
+In line no 3, ID a is not declared.
+Return 0

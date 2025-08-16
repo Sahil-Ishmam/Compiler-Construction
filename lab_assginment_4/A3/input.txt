@@ -1,0 +1,25 @@
+
+int a;
+int b;
+int c;
+
+a = 10;
+b = 3;
+c = 5;
+
+if(b > 3)
+{
+    int d;
+    d = 1;
+}
+else if (b< 2)
+{
+    char e;
+    e = 'x';
+}
+else
+{
+    double f;
+    f=3.14;
+
+}
